@@ -1,0 +1,424 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 62.5%;
+  line-height: 1;
+}
+
+.wrapper {
+  max-width: 1460px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.mbtn {
+  margin-bottom: 30px;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font: normal normal normal 16px/25px Poppins;
+  text-decoration: none;
+  width: 139px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  background-color: #304de5;
+  color: #fff;
+}
+
+.header .main__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 91px;
+}
+
+.header .main__nav .main-nav-list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: normal;
+      -ms-flex-pack: normal;
+          justify-content: normal;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 50px;
+}
+
+.header .main__nav .main-nav-list .main-nav-link {
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0px;
+  line-height: 1.5;
+  font-size: 18px;
+  color: #1c1b21;
+  text-decoration: none;
+}
+
+.header .main__nav .nav__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.header .main__nav .nav__right .nav__icons {
+  margin-right: 30px;
+}
+
+.header .main__nav .nav__right .nav__icons-arrow {
+  margin-left: 10px;
+  margin-right: 50px;
+}
+
+.header .main__nav .nav__right .nav__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 234px;
+  height: 91px;
+  background-color: #304de5;
+  margin-left: 50px;
+}
+
+.header .main__nav .nav__right .nav__box a {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0px;
+  line-height: 1.5;
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.section__hero {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("/hero.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/hero.png");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: normal;
+      -ms-flex-pack: normal;
+          justify-content: normal;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  height: 859px;
+  position: relative;
+}
+
+.section__hero .section__hero-inside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+}
+
+.section__hero .section__hero-inside .hero__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 20px;
+}
+
+.section__hero .section__hero-inside .hero__left .hero__heading {
+  font-family: "All Round Gothic", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0px;
+  font-size: 60px;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.section__hero .section__hero-inside .hero__left .hero__description {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0px;
+  line-height: 1.5;
+  font-size: 17px;
+  color: #ffffff;
+  margin-bottom: 10px;
+  width: 486px;
+}
+
+.section__hero .section__hero-inside .hero__left .arrows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+
+.section__hero .section__hero-inside .hero__right .hero__right-box {
+  width: 759px;
+  height: 570px;
+  background-color: #fff;
+  position: relative;
+}
+
+.section__hero .section__hero-inside .hero__right .hero__right-box .pattern {
+  position: absolute;
+  right: 0;
+}
+
+.section__hero .section__hero-inside .hero__right .hero__right-box .window {
+  position: absolute;
+  right: 357px;
+  top: 80px;
+}
+
+.section__hero .section__hero-inside .hero__right .hero__right-box .text__box {
+  position: absolute;
+  right: 30px;
+  top: 285px;
+  width: 327px;
+}
+
+.section__hero .section__hero-inside .hero__right .hero__right-box .text__box .right__subheading {
+  text-align: left;
+  font-family: "All Round Gothic", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0px;
+  font-size: 22px;
+  color: #304de5;
+  margin-bottom: 10px;
+}
+
+.section__hero .section__hero-inside .hero__right .hero__right-box .text__box .right__heading {
+  font-family: "All Round Gothic", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0px;
+  font-size: 22px;
+  color: #1c1b21;
+  margin-bottom: 20px;
+}
+
+.section__hero .section__hero-inside .hero__right .hero__right-box .text__box .right__description {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0px;
+  line-height: 1.5;
+  font-size: 17px;
+  color: #706e7e;
+  opacity: 1;
+  margin-bottom: 20px;
+}
+
+.section__hero .section__hero-inside .hero__right .hero__right-box .text__box .right__link {
+  font: 16px/25px Poppins;
+  font-weight: 500;
+  letter-spacing: 0px;
+  color: #304de5;
+  text-decoration: none;
+}
+
+.section__hero .section__hero-inside .hero__right .hero__right-box .text__box a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: normal;
+      -ms-flex-pack: normal;
+          justify-content: normal;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 10px;
+}
+
+.section__hero .hero__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 160px;
+  position: absolute;
+  bottom: 0;
+  height: 80px;
+  width: 1420px;
+  background-color: #304de5;
+}
+
+.section__hero .hero__bottom a {
+  font-family: "All Round Gothic", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0px;
+  font-size: 22px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.section__hero .hero__bottom .hero__bottom-box {
+  position: relative;
+}
+
+.section__hero .hero__bottom .hero__bottom-box .circle__icon {
+  padding: 6px;
+  height: 38px;
+  width: 38px;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  top: -45px;
+  border-radius: 100%;
+}
+
+.section__big .section__big-first {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
+  gap: 115px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.section__big .section__big-first .big__first-heading {
+  text-align: left;
+  font-family: "All Round Gothic", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0px;
+  font-size: 50px;
+  color: #1c1b21;
+}
+
+.section__big .section__big-first p {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0px;
+  line-height: 1.5;
+  text-align: left;
+  font-size: 17px;
+  color: #706e7e;
+  margin-bottom: 30px;
+}
+
+.wrapper {
+  max-width: 1460px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.mbtn {
+  margin-bottom: 30px;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font: normal normal normal 16px/25px Poppins;
+  text-decoration: none;
+  width: 139px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  background-color: #304de5;
+  color: #fff;
+}
+/*# sourceMappingURL=main.css.map */
