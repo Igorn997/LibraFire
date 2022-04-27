@@ -2,13 +2,18 @@ $primaryColor: #304de5;
 $blackFont: #1c1b21;
 
 .wrapper {
-  max-width: 1460px;
+  max-width: 1480px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
 .mbtn {
   margin-bottom: 30px;
+}
+
+.m100 {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .btn,
@@ -47,4 +52,23 @@ $blackFont: #1c1b21;
   transition: all 0.3s;
   background-color: #fff;
   color: $primaryColor;
+}
+
+.btnb,
+.btnb:link,
+.btnb:visited {
+  display: inline-block;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  font: normal normal normal 16px/25px Poppins;
+  text-decoration: none;
+  width: 240px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+  background-color: $primaryColor;
+  color: #fff;
 }

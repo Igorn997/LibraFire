@@ -49,7 +49,7 @@
 // --------------- HERO SECTION ---------------
 
 .section__hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  background-image: linear-gradient(rgba(28, 27, 33, 0.7), rgba(28, 27, 33, 0.7))),
     url("/hero.png");
   @include flexCenter(normal, row);
   width: 100%;
@@ -149,7 +149,7 @@
     position: absolute;
     bottom: 0;
     height: 80px;
-    width: 1420px;
+    width: 76%;
     background-color: $primaryColor;
     a {
       @include gothicMedium();
@@ -187,8 +187,6 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 115px;
-    margin-top: 100px;
-    margin-bottom: 100px;
 
     .second__left-heading {
       text-align: left;
@@ -246,8 +244,126 @@
     right: 0;
     z-index: -1;
   }
-  // .third__outside {
-  //   .third__slider {
-  //   }
-  // }
+}
+
+// --------------- FOURTH SECTION ---------------
+.section__fourth {
+  @include flexCenter(normal, row);
+  gap: 200px;
+
+  .fourth__left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    h1 {
+      @include gothicMedium();
+      font-size: 50px;
+      color: $blackFont;
+    }
+    p {
+      @include poppinsNormal();
+      font-size: 17px;
+      color: #706e7e;
+    }
+    a {
+      margin-top: 38px;
+    }
+  }
+  .fourth__right {
+    img {
+      width: 690px;
+      height: 700px;
+    }
+  }
+}
+
+// --------------- FIFTH SECTION ---------------
+
+.section__fifth {
+  background-image: url("/img/fifth-section.png");
+  background-color: #1c1b21;
+  background-blend-mode: multiply;
+  opacity: 0.92;
+  width: 100%;
+  height: 876px;
+  .section__fifth-heading {
+    display: flex;
+    justify-content: center;
+    h1 {
+      @include gothicMedium();
+      font-size: 50px;
+      color: #fff;
+      margin-top: 80px;
+      margin-bottom: 51px;
+    }
+  }
+  .section__fifth-cards {
+    display: flex;
+    gap: 50px;
+    .section__fifth-card {
+      background: white;
+      width: 486px;
+      height: 526px;
+      border: 1px solid #304de5;
+      position: relative;
+      .fifth__card-img {
+        height: 280px;
+        background-size: cover;
+      }
+      .fifth__card-content {
+        margin: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        h2 {
+          @include gothicMedium();
+          font-size: 22px;
+        }
+        p {
+          @include poppinsNormal();
+          font-size: 17px;
+        }
+        .fifth__card-link {
+          @include poppinsMedium();
+          font-size: 16px;
+          color: $primaryColor;
+          position: absolute;
+          bottom: 0;
+          margin-bottom: 10px;
+          text-decoration: none;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+        }
+      }
+    }
+  }
+  .section__fifth-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .section__fifth-patter {
+    position: absolute;
+    right: 0;
+    mix-blend-mode: multiply;
+
+    // background: linear-gradient(
+    //   180deg,
+    //   rgba(0, 0, 0, 0.7),
+    //   rgba(255, 192, 203, 0)
+    // );
+  }
+}
+
+.fci1 {
+  background-image: url("/img/slider2/slider2-1.png");
+}
+
+.fci2 {
+  background-image: url("/img/slider2/slider2-2.png");
+}
+
+.fci3 {
+  background-image: url("/img/slider2/sldier2-3.png");
 }
