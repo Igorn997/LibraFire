@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
     <link
@@ -17,6 +17,11 @@
       rel="stylesheet"
       type="text/css"
     />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
   </head>
   <body>
     <header class="header wrapper">
@@ -101,7 +106,9 @@
         </div>
         <div class="hero__bottom wrapper">
           <div class="hero__bottom-box">
-            <img src="img/icons/circle 1.svg" alt="" class="circle__icon" />
+            <div class="circle-box">
+              <img src="img/icons/circle 1.svg" alt="" class="circle__icon" />
+            </div>
             <a href="#"
               >Assortiment
               <img
@@ -111,7 +118,13 @@
             /></a>
           </div>
           <div class="hero__bottom-box">
-            <img src="img/icons/testimonial.svg" alt="" class="circle__icon" />
+            <div class="circle-box">
+              <img
+                src="img/icons/testimonial.svg"
+                alt=""
+                class="circle__icon"
+              />
+            </div>
             <a href="#"
               >Getuigenissen
               <img
@@ -121,7 +134,9 @@
             /></a>
           </div>
           <div class="hero__bottom-box">
-            <img src="img/icons/loop-arrow.svg" alt="" class="circle__icon" />
+            <div class="circle-box">
+              <img src="img/icons/loop-arrow.svg" alt="" class="circle__icon" />
+            </div>
             <a href="#"
               >Up-To-Date
               <img
@@ -131,11 +146,13 @@
             /></a>
           </div>
           <div class="hero__bottom-box">
-            <img
-              src="img/icons/customer-support.svg"
-              alt=""
-              class="circle__icon"
-            />
+            <div class="circle-box">
+              <img
+                src="img/icons/customer-support.svg"
+                alt=""
+                class="circle__icon"
+              />
+            </div>
             <a href="#"
               >Services
               <img
@@ -145,7 +162,9 @@
             /></a>
           </div>
           <div class="hero__bottom-box">
-            <img src="img/icons/www.svg" alt="" class="circle__icon" />
+            <div class="circle-box">
+              <img src="img/icons/www.svg" alt="" class="circle__icon" />
+            </div>
             <a href="#"
               >Wie zijn wij
               <img
@@ -157,10 +176,10 @@
         </div>
       </div>
     </section>
-    <section class="section__big">
-      <div class="section__big-first wrapper">
+    <section class="section__second">
+      <div class="section__second-left wrapper">
         <div>
-          <h1 class="big__first-heading">Een uitgebreid gamma</h1>
+          <h1 class="second__left-heading">Een uitgebreid gamma</h1>
         </div>
         <div>
           <p>
@@ -178,5 +197,85 @@
         </div>
       </div>
     </section>
+    <section class="third">
+      <div class="third__inside wrapper">
+        <div class="third__inside-left">
+          <img src="img/section-big-img.png" alt="" class="third__inside-img" />
+        </div>
+        <div class="third__inside-right">
+          <h1>Een ruime ervaring</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Dolor
+            morbi non arcu risus. Pellentesque diam volutpat commodo sed
+            egestas.
+          </p>
+          <p>
+            Consectetur lorem donec massa sapien faucibus et molestie. Neque
+            convallis a cras semper auctor neque vitae tempus quam. Arcu
+            bibendum at varius vel pharetra vel turpis nunc. Aliquam sem
+          </p>
+          <a href="#" class="btnW">Meer lezen</a>
+        </div>
+      </div>
+      <div class="third__outside">
+        <div class="third__slider section__thumb">
+          <!-- Slider main container -->
+          <div class="section__thumb__tile swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <a class="section__thumb__tile" href="#">
+                  <img
+                    class="section__thumb__tile__img"
+                    src="img/slider/1.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+
+              <div class="swiper-slide">
+                <a class="section__thumb__tile" href="#">
+                  <img
+                    class="section__thumb__tile__img"
+                    src="img/slider/2.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+
+              <div class="swiper-slide">
+                <a class="section__thumb__tile" href="#">
+                  <img
+                    class="section__thumb__tile__img"
+                    src="img/slider/3.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="slider-arrows">
+            <div class="swiper-left">
+              <img
+                src="img/slider/slider-left.svg"
+                class="sldier-arrows-img"
+                alt=""
+              />
+            </div>
+            <div class="swiper-right">
+              <img
+                src="img/slider/slider-right.svg"
+                class="sldier-arrows-img"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section__fourth">aaaaaaaaaaaaaaaaaaaaaaaaaaa</section>
+    <script src="/js/main.js"></script>
   </body>
 </html>
