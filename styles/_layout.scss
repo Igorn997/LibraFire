@@ -49,7 +49,10 @@
 // --------------- HERO SECTION ---------------
 
 .section__hero {
-  background-image: linear-gradient(rgba(28, 27, 33, 0.7), rgba(28, 27, 33, 0.7))),
+  background-image: linear-gradient(
+      rgba(28, 27, 33, 0.7),
+      rgba(28, 27, 33, 0.7)
+    ),
     url("/hero.png");
   @include flexCenter(normal, row);
   width: 100%;
@@ -218,7 +221,7 @@
       display: flex;
       flex-direction: column;
       gap: 20px;
-      margin-top: 100px;
+
       h1 {
         @include gothicMedium();
         font-size: 50px;
@@ -366,4 +369,69 @@
 
 .fci3 {
   background-image: url("/img/slider2/sldier2-3.png");
+}
+
+// --------------- SIXTH SECTION ---------------
+
+.section__sixth {
+  // display: flex;
+
+  .section__sixth-heading {
+    @include flexCenter(center, row);
+    h2 {
+      @include gothicMedium;
+      font-size: 50px;
+      color: $blackFont;
+      margin-bottom: 44px;
+    }
+  }
+  .section__six-cards {
+    display: flex;
+    gap: 30px;
+    .section__sixth-card {
+      padding: 30px;
+      width: 486px;
+      height: 569px;
+      background-color: #edeff8;
+      .sixth__card-description {
+        @include poppinsNormal();
+        font-size: 17px;
+        color: $lightGrey;
+      }
+      .sixth__card-avalible {
+        @include poppinsMedium();
+        font-size: 17px;
+      }
+      .sixth__card-heading {
+        @include gothicMedium();
+        font-size: 30px;
+        // padding-left: 30px;
+        // padding-top: 30px;
+      }
+      .sixth__card-avalivlelist {
+        margin-left: 51px;
+        .sixth__card-avalible {
+          margin-bottom: 5px;
+          margin-top: 16px;
+        }
+      }
+      .sixth__card-list {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        // margin-left: 30px;
+        margin-top: 44px;
+        li {
+          display: flex;
+          align-items: center;
+          gap: 15px;
+        }
+      }
+    }
+  }
+  .section__sixth-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
 }

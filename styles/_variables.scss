@@ -1,5 +1,6 @@
 $primaryColor: #304de5;
 $blackFont: #1c1b21;
+$lightGrey: #706e7e;
 
 .wrapper {
   max-width: 1480px;
@@ -22,12 +23,11 @@ $blackFont: #1c1b21;
   display: inline-block;
   display: flex;
   gap: 10px;
+  padding: 14px 30px;
   align-items: center;
   justify-content: center;
   font: normal normal normal 16px/25px Poppins;
   text-decoration: none;
-  width: 139px;
-  height: 50px;
   border: none;
   cursor: pointer;
   transition: all 0.3s;
@@ -41,34 +41,15 @@ $blackFont: #1c1b21;
   display: inline-block;
   display: flex;
   gap: 10px;
+  padding: 14px 30px;
   align-items: center;
   justify-content: center;
   font: normal normal normal 16px/25px Poppins;
   text-decoration: none;
-  width: 139px;
-  height: 50px;
+
   border: none;
   cursor: pointer;
   transition: all 0.3s;
   background-color: #fff;
   color: $primaryColor;
-}
-
-.btnb,
-.btnb:link,
-.btnb:visited {
-  display: inline-block;
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  justify-content: center;
-  font: normal normal normal 16px/25px Poppins;
-  text-decoration: none;
-  width: 240px;
-  height: 50px;
-  border: none;
-  cursor: pointer;
-  transition: all 0.3s;
-  background-color: $primaryColor;
-  color: #fff;
 }
