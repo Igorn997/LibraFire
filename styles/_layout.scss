@@ -435,3 +435,208 @@
     margin-top: 30px;
   }
 }
+
+// --------------- SEVENTH SECTION ---------------
+
+.section__seventh {
+  background-color: $primaryColor;
+  padding: 80px 0;
+  .section__seventh-heading {
+    @include flexCenter(flex-start, row);
+    @include gothicMedium();
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  .section__seven-cards {
+    display: flex;
+    gap: 30px;
+    .section__seven-card {
+      display: flex;
+      flex-direction: column;
+      width: 486px;
+      gap: 12px;
+      .seven__card-img {
+        margin-bottom: 8px;
+      }
+      .seven__card-heading {
+        @include gothicMedium();
+        font-size: 22px;
+        color: #fff;
+      }
+      .seven__card-date {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        .date {
+          @include poppinsNormal();
+          font-size: 13px;
+          color: #fff;
+        }
+        .envement {
+          @include poppinsNormal();
+          display: inline-block;
+          font-size: 13px;
+          padding: 2px;
+          background-color: #edeff8;
+          line-height: 1;
+        }
+      }
+      .seventh__card-link {
+        @include poppinsMedium();
+        font-size: 16px;
+        color: #fff;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+    }
+    .seven__card-description {
+      @include poppinsNormal();
+      font-size: 17px;
+      color: #b7bfea;
+    }
+  }
+  .section__seventh-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+}
+
+// --------------- FOOTER SECTION ---------------
+
+.footer {
+  background-color: #1c1b21;
+  padding: 80px 0;
+  border-bottom: 2px solid #fff;
+  .footer__inside {
+    .footer__logo {
+      filter: brightness(100);
+    }
+    .footer__nav {
+      display: flex;
+      gap: 140px;
+      margin-top: 50px;
+      .footer__nav-first {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .footer__nav-heading {
+          @include gothicMedium();
+          font-size: 20px;
+          color: #fff;
+          margin-bottom: 20px;
+        }
+        li {
+          @include poppinsNormal();
+          list-style: none;
+          a {
+            font-size: 14px;
+            color: #b7bfea;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+
+  .footer__nav-second {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    .footer__nav-heading2 {
+      @include gothicMedium();
+      font-size: 20px;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+    li {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+    .second__text1 {
+      @include gothicMedium();
+      font-size: 16px;
+      color: #fff;
+    }
+    .second__text2 {
+      @include poppinsNormal();
+      font-size: 15px;
+      color: #b7bfea;
+    }
+  }
+  .footer__nav-heading3 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    @include gothicMedium();
+    font-size: 20px;
+    color: #fff;
+  }
+  .footer__social {
+    display: flex;
+    gap: 10px;
+  }
+  .footer__cards {
+    display: flex;
+    gap: 30px;
+    .footer__card {
+      padding: 30px;
+      width: 357px;
+      height: 378px;
+      background-color: $primaryColor;
+      margin-top: -30px;
+      .footer__card-heading {
+        @include gothicMedium();
+        font-size: 20px;
+        color: #fff;
+        margin-bottom: 30px;
+      }
+      .footer_card-description {
+        @include poppinsNormal();
+        font-size: 16px;
+        color: #fff;
+        margin-bottom: 20px;
+      }
+      .footer__card-img {
+        margin-bottom: 30px;
+      }
+      .footer__btn {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}
+
+// --------------- COPYRIGHT SECTION ---------------
+
+.section__copyright {
+  background-color: #1c1b21;
+  padding: 20px 0;
+  .section__copyright-inside {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .copyright__left p {
+      @include poppinsNormal();
+      font-size: 12px;
+      color: #b7bfea;
+    }
+    .copyright__right {
+      .copyright__links {
+        display: flex;
+        gap: 30px;
+        list-style: none;
+        li a {
+          @include poppinsNormal();
+          font-size: 12px;
+          text-decoration: none;
+          color: #b7bfea;
+        }
+      }
+    }
+  }
+}

@@ -779,6 +779,340 @@ body {
   margin-top: 30px;
 }
 
+.section__seventh {
+  background-color: #304de5;
+  padding: 80px 0;
+}
+
+.section__seventh .section__seventh-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-family: "All Round Gothic", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0px;
+  font-size: 50px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.section__seventh .section__seven-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+
+.section__seventh .section__seven-cards .section__seven-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 486px;
+  gap: 12px;
+}
+
+.section__seventh .section__seven-cards .section__seven-card .seven__card-img {
+  margin-bottom: 8px;
+}
+
+.section__seventh .section__seven-cards .section__seven-card .seven__card-heading {
+  font-family: "All Round Gothic", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0px;
+  font-size: 22px;
+  color: #fff;
+}
+
+.section__seventh .section__seven-cards .section__seven-card .seven__card-date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.section__seventh .section__seven-cards .section__seven-card .seven__card-date .date {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0px;
+  line-height: 1.5;
+  font-weight: 300;
+  font-size: 13px;
+  color: #fff;
+}
+
+.section__seventh .section__seven-cards .section__seven-card .seven__card-date .envement {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0px;
+  line-height: 1.5;
+  font-weight: 300;
+  display: inline-block;
+  font-size: 13px;
+  padding: 2px;
+  background-color: #edeff8;
+  line-height: 1;
+}
+
+.section__seventh .section__seven-cards .section__seven-card .seventh__card-link {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0px;
+  line-height: 1.5;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.section__seventh .section__seven-cards .seven__card-description {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0px;
+  line-height: 1.5;
+  font-weight: 300;
+  font-size: 17px;
+  color: #b7bfea;
+}
+
+.section__seventh .section__seventh-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+}
+
+.footer {
+  background-color: #1c1b21;
+  padding: 80px 0;
+  border-bottom: 2px solid #fff;
+}
+
+.footer .footer__inside .footer__logo {
+  -webkit-filter: brightness(100);
+          filter: brightness(100);
+}
+
+.footer .footer__inside .footer__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 140px;
+  margin-top: 50px;
+}
+
+.footer .footer__inside .footer__nav .footer__nav-first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+
+.footer .footer__inside .footer__nav .footer__nav-first .footer__nav-heading {
+  font-family: "All Round Gothic", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0px;
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.footer .footer__inside .footer__nav .footer__nav-first li {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0px;
+  line-height: 1.5;
+  font-weight: 300;
+  list-style: none;
+}
+
+.footer .footer__inside .footer__nav .footer__nav-first li a {
+  font-size: 14px;
+  color: #b7bfea;
+  text-decoration: none;
+}
+
+.footer .footer__nav-second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+
+.footer .footer__nav-second .footer__nav-heading2 {
+  font-family: "All Round Gothic", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0px;
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.footer .footer__nav-second li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+}
+
+.footer .footer__nav-second .second__text1 {
+  font-family: "All Round Gothic", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.footer .footer__nav-second .second__text2 {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0px;
+  line-height: 1.5;
+  font-weight: 300;
+  font-size: 15px;
+  color: #b7bfea;
+}
+
+.footer .footer__nav-heading3 {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-family: "All Round Gothic", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.footer .footer__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+
+.footer .footer__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+
+.footer .footer__cards .footer__card {
+  padding: 30px;
+  width: 357px;
+  height: 378px;
+  background-color: #304de5;
+  margin-top: -30px;
+}
+
+.footer .footer__cards .footer__card .footer__card-heading {
+  font-family: "All Round Gothic", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0px;
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.footer .footer__cards .footer__card .footer_card-description {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0px;
+  line-height: 1.5;
+  font-weight: 300;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.footer .footer__cards .footer__card .footer__card-img {
+  margin-bottom: 30px;
+}
+
+.footer .footer__cards .footer__card .footer__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section__copyright {
+  background-color: #1c1b21;
+  padding: 20px 0;
+}
+
+.section__copyright .section__copyright-inside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section__copyright .section__copyright-inside .copyright__left p {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0px;
+  line-height: 1.5;
+  font-weight: 300;
+  font-size: 12px;
+  color: #b7bfea;
+}
+
+.section__copyright .section__copyright-inside .copyright__right .copyright__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.section__copyright .section__copyright-inside .copyright__right .copyright__links li a {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0px;
+  line-height: 1.5;
+  font-weight: 300;
+  font-size: 12px;
+  text-decoration: none;
+  color: #b7bfea;
+}
+
 .wrapper {
   max-width: 1480px;
   margin: 0 auto;

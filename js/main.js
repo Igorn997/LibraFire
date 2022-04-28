@@ -23,3 +23,26 @@ const swiper = new Swiper(".swiper", {
     },
   },
 });
+
+var swiper2 = new Swiper(".swiper2", {
+  /* Options */
+  loop: true,
+  spaceBetween: 10,
+  slidesPerView: 3,
+  freeMode: true,
+  speed: 500,
+  centeredSlides: true,
+  scrollContainer: false,
+  wrapper: ".swiper-wrapper1",
+
+  // breakpoints: {
+  //   // iznad 640px
+  //   640: {
+  //     slidesPerView: 3,
+  //     centeredSlides: true,
+
+  //     slidesPerGroup: 1,
+  //     freeMode: false,
+  //   },
+  // },
+});
