@@ -12,12 +12,17 @@
       list-style: none;
       @include flexCenter(normal, row);
       gap: 50px;
+
       .main-nav-link {
         text-align: left;
         @include poppinsNormal();
         font-size: 18px;
-        color: $blackFont;
+        color: $black;
         text-decoration: none;
+        transition: all 0.2s;
+        &:hover {
+          color: $primaryColor;
+        }
       }
     }
     .nav__right {
@@ -38,7 +43,7 @@
         a {
           @include poppinsNormal();
           font-size: 18px;
-          color: #ffffff;
+          color: $whiteColor;
           text-decoration: none;
         }
       }
@@ -71,14 +76,14 @@
         @include gothicMedium();
         font-size: 60px;
         text-align: left;
-        color: #fff;
+        color: $whiteColor;
         margin-bottom: 20px;
       }
       .hero__description {
         @include poppinsNormal();
 
         font-size: 17px;
-        color: #ffffff;
+        color: $whiteColor;
         margin-bottom: 10px;
         width: 486px;
       }
@@ -94,7 +99,7 @@
         // background: transparent url("/img/pattern.png") 0% 0% no-repeat
         //   padding-box;
         // opacity: 0.7;
-        background-color: #fff;
+        background-color: $whiteColor;
         position: relative;
         .pattern {
           position: absolute;
@@ -120,13 +125,13 @@
           .right__heading {
             @include gothicMedium();
             font-size: 22px;
-            color: $blackFont;
+            color: $black;
             margin-bottom: 20px;
           }
           .right__description {
             @include poppinsNormal;
             font-size: 17px;
-            color: #706e7e;
+            color: $lightGrey;
             opacity: 1;
             margin-bottom: 20px;
           }
@@ -157,7 +162,7 @@
     a {
       @include gothicMedium();
       font-size: 22px;
-      color: #ffffff;
+      color: $whiteColor;
       text-decoration: none;
     }
     .hero__bottom-box {
@@ -165,7 +170,7 @@
       .circle-box {
         height: 38px;
         width: 38px;
-        background-color: #fff;
+        background-color: $whiteColor;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -195,13 +200,13 @@
       text-align: left;
       @include gothicMedium();
       font-size: 50px;
-      color: $blackFont;
+      color: $black;
     }
     p {
       @include poppinsNormal();
       text-align: left;
       font-size: 17px;
-      color: #706e7e;
+      color: $lightGrey;
       margin-bottom: 30px;
     }
   }
@@ -225,12 +230,12 @@
       h1 {
         @include gothicMedium();
         font-size: 50px;
-        color: #fff;
+        color: $whiteColor;
       }
       p {
         @include poppinsNormal();
         font-size: 17px;
-        color: #fff;
+        color: $whiteColor;
       }
     }
 
@@ -247,6 +252,9 @@
     right: 0;
     z-index: -1;
   }
+  .third__outside {
+    overflow: hidden;
+  }
 }
 
 // --------------- FOURTH SECTION ---------------
@@ -261,12 +269,12 @@
     h1 {
       @include gothicMedium();
       font-size: 50px;
-      color: $blackFont;
+      color: $black;
     }
     p {
       @include poppinsNormal();
       font-size: 17px;
-      color: #706e7e;
+      color: $lightGrey;
     }
     a {
       margin-top: 38px;
@@ -284,8 +292,9 @@
 
 .section__fifth {
   background-image: url("/img/fifth-section.png");
-  background-color: #1c1b21;
+  background-color: $black;
   background-blend-mode: multiply;
+
   opacity: 0.92;
   width: 100%;
   height: 876px;
@@ -295,19 +304,19 @@
     h1 {
       @include gothicMedium();
       font-size: 50px;
-      color: #fff;
+      color: $whiteColor;
       margin-top: 80px;
       margin-bottom: 51px;
     }
   }
   .section__fifth-cards {
     display: flex;
-    gap: 50px;
+    // position: absolute; // gap: 50px;
     .section__fifth-card {
-      background: white;
+      background: $whiteColor;
       width: 486px;
       height: 526px;
-      border: 1px solid #304de5;
+      border: 1px solid $primaryColor;
       position: relative;
       .fifth__card-img {
         height: 280px;
@@ -350,12 +359,6 @@
     position: absolute;
     right: 0;
     mix-blend-mode: multiply;
-
-    // background: linear-gradient(
-    //   180deg,
-    //   rgba(0, 0, 0, 0.7),
-    //   rgba(255, 192, 203, 0)
-    // );
   }
 }
 
@@ -371,6 +374,14 @@
   background-image: url("/img/slider2/sldier2-3.png");
 }
 
+.fifth__slider-arrows {
+  @include flexCenter(center, row);
+  gap: 440px;
+  position: relative;
+  top: -350px;
+  z-index: 1;
+}
+
 // --------------- SIXTH SECTION ---------------
 
 .section__sixth {
@@ -381,7 +392,7 @@
     h2 {
       @include gothicMedium;
       font-size: 50px;
-      color: $blackFont;
+      color: $black;
       margin-bottom: 44px;
     }
   }
@@ -445,7 +456,7 @@
     @include flexCenter(flex-start, row);
     @include gothicMedium();
     font-size: 50px;
-    color: #fff;
+    color: $whiteColor;
     margin-bottom: 30px;
   }
   .section__seven-cards {
@@ -462,7 +473,7 @@
       .seven__card-heading {
         @include gothicMedium();
         font-size: 22px;
-        color: #fff;
+        color: $whiteColor;
       }
       .seven__card-date {
         display: flex;
@@ -471,7 +482,7 @@
         .date {
           @include poppinsNormal();
           font-size: 13px;
-          color: #fff;
+          color: $whiteColor;
         }
         .envement {
           @include poppinsNormal();
@@ -485,7 +496,7 @@
       .seventh__card-link {
         @include poppinsMedium();
         font-size: 16px;
-        color: #fff;
+        color: $whiteColor;
         text-decoration: none;
         display: flex;
         align-items: center;
@@ -495,7 +506,7 @@
     .seven__card-description {
       @include poppinsNormal();
       font-size: 17px;
-      color: #b7bfea;
+      color: $lightBlue;
     }
   }
   .section__seventh-button {
@@ -508,9 +519,9 @@
 // --------------- FOOTER SECTION ---------------
 
 .footer {
-  background-color: #1c1b21;
+  background-color: $black;
   padding: 80px 0;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid $whiteColor;
   .footer__inside {
     .footer__logo {
       filter: brightness(100);
@@ -526,15 +537,15 @@
         .footer__nav-heading {
           @include gothicMedium();
           font-size: 20px;
-          color: #fff;
+          color: $whiteColor;
           margin-bottom: 20px;
         }
-        li {
-          @include poppinsNormal();
-          list-style: none;
+        p {
           a {
+            @include poppinsNormal();
+            list-style: none;
             font-size: 14px;
-            color: #b7bfea;
+            color: $lightBlue;
             text-decoration: none;
           }
         }
@@ -549,10 +560,10 @@
     .footer__nav-heading2 {
       @include gothicMedium();
       font-size: 20px;
-      color: #fff;
+      color: $whiteColor;
       margin-bottom: 10px;
     }
-    li {
+    .nav__second-flex {
       display: flex;
       align-items: center;
       gap: 15px;
@@ -560,12 +571,12 @@
     .second__text1 {
       @include gothicMedium();
       font-size: 16px;
-      color: #fff;
+      color: $whiteColor;
     }
     .second__text2 {
       @include poppinsNormal();
       font-size: 15px;
-      color: #b7bfea;
+      color: $lightBlue;
     }
   }
   .footer__nav-heading3 {
@@ -573,11 +584,20 @@
     margin-bottom: 10px;
     @include gothicMedium();
     font-size: 20px;
-    color: #fff;
+    color: $whiteColor;
   }
   .footer__social {
     display: flex;
     gap: 10px;
+    img {
+      width: 36px;
+      height: 36px;
+      transition: all 0.5;
+      &:hover {
+        width: 32px;
+        height: 32px;
+      }
+    }
   }
   .footer__cards {
     display: flex;
@@ -591,13 +611,13 @@
       .footer__card-heading {
         @include gothicMedium();
         font-size: 20px;
-        color: #fff;
+        color: $whiteColor;
         margin-bottom: 30px;
       }
       .footer_card-description {
         @include poppinsNormal();
         font-size: 16px;
-        color: #fff;
+        color: $whiteColor;
         margin-bottom: 20px;
       }
       .footer__card-img {
@@ -614,7 +634,7 @@
 // --------------- COPYRIGHT SECTION ---------------
 
 .section__copyright {
-  background-color: #1c1b21;
+  background-color: $black;
   padding: 20px 0;
   .section__copyright-inside {
     display: flex;
@@ -623,7 +643,7 @@
     .copyright__left p {
       @include poppinsNormal();
       font-size: 12px;
-      color: #b7bfea;
+      color: $lightBlue;
     }
     .copyright__right {
       .copyright__links {
@@ -634,7 +654,7 @@
           @include poppinsNormal();
           font-size: 12px;
           text-decoration: none;
-          color: #b7bfea;
+          color: $lightBlue;
         }
       }
     }

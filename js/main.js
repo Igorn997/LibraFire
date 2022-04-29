@@ -1,39 +1,42 @@
 const swiper = new Swiper(".swiper", {
   // Optional parameters
   loop: true,
-  spaceBetween: 50,
+  spaceBetween: 30,
   slidesPerView: 2,
   freeMode: true,
-  speed: 500,
+  speed: 300,
 
   // Navigation arrows
   navigation: {
-    nextEl: ".swiper-right",
-    prevEl: ".swiper-left",
+    nextEl: ".swiper-right2",
+    prevEl: ".swiper-left2",
   },
 
   breakpoints: {
     // iznad 640px
     640: {
-      slidesPerView: 2.2,
+      slidesPerView: 3,
       centeredSlides: true,
-
       slidesPerGroup: 1,
       freeMode: false,
     },
   },
 });
 
-var swiper2 = new Swiper(".swiper2", {
+const swiper2 = new Swiper(".swiper-first", {
   /* Options */
   loop: true,
-  spaceBetween: 10,
-  slidesPerView: 3,
-  freeMode: true,
+  spaceBetween: 20,
+  slidesPerView: 2.2,
+  // freeMode: true,
   speed: 500,
   centeredSlides: true,
-  scrollContainer: false,
-  wrapper: ".swiper-wrapper1",
+  slidesPerGroup: 1,
+
+  navigation: {
+    nextEl: ".swiper-right",
+    prevEl: ".swiper-left",
+  },
 
   // breakpoints: {
   //   // iznad 640px
@@ -45,4 +48,11 @@ var swiper2 = new Swiper(".swiper2", {
   //     freeMode: false,
   //   },
   // },
+});
+
+const swiper3 = new Swiper(".swiper-hero", {
+  loop: true,
+  slidesPerView: 2,
+  speed: 500,
+  slidesPerGroup: 1,
 });

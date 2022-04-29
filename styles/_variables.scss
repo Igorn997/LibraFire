@@ -1,6 +1,8 @@
 $primaryColor: #304de5;
-$blackFont: #1c1b21;
+$whiteColor: #ffffff;
+$black: #1c1b21;
 $lightGrey: #706e7e;
+$lightBlue: #b7bfea;
 
 .wrapper {
   max-width: 1480px;
@@ -32,7 +34,12 @@ $lightGrey: #706e7e;
   cursor: pointer;
   transition: all 0.3s;
   background-color: $primaryColor;
-  color: #fff;
+  color: $whiteColor;
+  &:hover {
+    background-color: #4665ff;
+    // border: 1px solid #304de5;
+    // box-shadow: 0 0 0 1px $primaryColor;
+  }
 }
 
 .btnW,
@@ -52,4 +59,9 @@ $lightGrey: #706e7e;
   transition: all 0.3s;
   background-color: #fff;
   color: $primaryColor;
+  &:hover {
+    color: $whiteColor;
+    background-color: $primaryColor;
+    box-shadow: 0 0 0 1px $whiteColor;
+  }
 }
