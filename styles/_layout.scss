@@ -14,7 +14,6 @@
       gap: 50px;
 
       .main-nav-link {
-        text-align: left;
         @include poppinsNormal();
         font-size: 18px;
         color: $black;
@@ -209,6 +208,9 @@
       color: $lightGrey;
       margin-bottom: 30px;
     }
+    a {
+      text-decoration: none;
+    }
   }
 }
 
@@ -227,7 +229,7 @@
       flex-direction: column;
       gap: 20px;
 
-      h1 {
+      h2 {
         @include gothicMedium();
         font-size: 50px;
         color: $whiteColor;
@@ -236,6 +238,9 @@
         @include poppinsNormal();
         font-size: 17px;
         color: $whiteColor;
+      }
+      a {
+        text-decoration: none;
       }
     }
 
@@ -266,18 +271,19 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    h1 {
+    .fourth__left-heading {
       @include gothicMedium();
       font-size: 50px;
       color: $black;
     }
-    p {
+    .fourth__left-description {
       @include poppinsNormal();
       font-size: 17px;
       color: $lightGrey;
     }
     a {
       margin-top: 38px;
+      text-decoration: none;
     }
   }
   .fourth__right {
@@ -301,7 +307,7 @@
   .section__fifth-heading {
     display: flex;
     justify-content: center;
-    h1 {
+    h2 {
       @include gothicMedium();
       font-size: 50px;
       color: $whiteColor;
@@ -350,16 +356,16 @@
       }
     }
   }
-  .section__fifth-btn {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-  }
-  .section__fifth-patter {
+  .section__fifth-pattern {
     position: absolute;
     right: 0;
     mix-blend-mode: multiply;
   }
+}
+.section__fifth-btn {
+  display: flex;
+  justify-content: center;
+  // margin-top: 30px;
 }
 
 .fci1 {
@@ -469,6 +475,7 @@
       gap: 12px;
       .seven__card-img {
         margin-bottom: 8px;
+        width: 100%;
       }
       .seven__card-heading {
         @include gothicMedium();
@@ -528,7 +535,7 @@
     }
     .footer__nav {
       display: flex;
-      gap: 140px;
+      gap: 135px;
       margin-top: 50px;
       .footer__nav-first {
         display: flex;

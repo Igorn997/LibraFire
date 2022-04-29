@@ -4,7 +4,7 @@ const swiper = new Swiper(".swiper", {
   spaceBetween: 30,
   slidesPerView: 2,
   freeMode: true,
-  speed: 300,
+  speed: 200,
 
   // Navigation arrows
   navigation: {
